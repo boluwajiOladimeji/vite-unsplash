@@ -7,7 +7,7 @@ import { useGlobalContext } from './context';
 // }`;
 
 const url = `https:api.unsplash.com/search/photos?client_id=${
-  import.meta.env.VITE_API_KEY
+  import.meta.env.VITE_FETCH_KEY
 }`;
 
 const Gallery = () => {
